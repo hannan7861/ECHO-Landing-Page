@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cont {
+    background-color: white;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar-brand img {
+    height: 20px;
+  
+}
+
+
+#bt1 {
+    background-color: #081158;
+    color: #e3a449;
+}
+
+#bt1:hover {
+    background-color: #e3a449;
+    color: #081158;
+}
+
+#bt1 {
+    background-color: #081158;
+    color: #e3a449;
+}
+
+.hero img {
+    height: 70vh;
+   
+}
+
+.hero {
+    height: 95vh;
+    align-items: center;
+    display: flex;
+}
+
+.main {
+    align-items: center;
+}
+
+.main-write {
+    height: 55vh;
+}
+
+.p1 {
+
+    color: #e3a449;
+    font-weight: 500;
+}
+
+.main-write h1 {
+    /* font-weight: 800; */
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 800;
+    color: #081158;
+    font-size: 50px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+#bt2 {
+    padding: 0.90rem 2rem;
+    background-color: #081158;
+    color: white;
+}
+
+#bt3 {
+    padding: 0.90rem 2rem;
+    color: #081158;
+    border: 1px solid #081158;
+}
+
+span {
+    padding: 0.50rem 1.50rem;
+    background-color: #fef0da;
+    color: #e3a449;
+    font-weight: 500;
+}
+
+.feature-write h1 {
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 800;
+    color: #081158;
+    font-size: 50px;
+}
+
+.about-img img {
+    height: 58vh;
+
+}
+
+.about-write h2 {
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 800;
+    color: #081158;
+    font-size: 50px;
+}
+
+.service-heading h2 {
+
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 800;
+    color: #081158;
+    font-size: 50px;
+}
+
+.col1 h3 {
+    font-weight: 500;
+}
+
+.test1 i {
+    color: yellow;
+}
+
+.testimonial-heading h2 {
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 800;
+    color: #081158;
+    font-size: 50px;
+}
+
+.testimonial1 {
+    height: 80vh;
+    background-color: #f8f9fa;
+}
+
+.test1 {
+    height: 33vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid ghostwhite;
+}
+
+.identity {
+    align-items: center;
+}
+
+.identity img {
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50px;
+    transform: translateY(-40px);
+}
+
+
+.footer li {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:450px) {
+
+    .nav-cont {
+        height: auto;
+        width: auto;
+    }
+
+    .navbar {
+        width: 20vw;
+        flex-direction: column;
+    }
+
+    .links {
+        width: 100vw;
+    }
+
+    .navbar ul li {
+        display: list-item;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-write {
+        margin-top: 10vw;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .about {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .about-write {
+        height: auto;
+        width: auto;
+        margin-top: 15vw
+    }
+
+    .service-data {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+
+
+    }
+
+    .service {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 {
+        height: auto;
+        width: 100vw;
+    }
+
+    .testimonial1 {
+        height: auto;
+        width: auto;
+    }
+
+    .cards {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .test1 {
+        height: auto;
+        width: auto;
+        margin-top: 20vw;
+    }
+
+    .identity img {
+        height: auto;
+        width: 30vw;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .f1 {
+        margin-top: 5vw;
+    }
+}
